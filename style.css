@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero {
+    background-color: #313131;
+}
+.section{
+    padding: 20px 12%;
+}
+.flex{
+    display: flex;
+}
+.heading {
+    flex: 2;
+}
+.nav{
+    flex: 1;
+    margin: auto;
+    text-align: right;
+}
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #89939E;
+} 
+.nav a:hover {
+    color: #c9cacb;
+    transition: 0.3s;
+}
+.border {
+    border: 1px solid rgb(253, 92, 92);
+}
+.paragraph{
+    margin: auto;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.grid-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.link{
+    color:#313131;
+    text-decoration: none;
+}
+.link3{
+    color:#313131;
+    text-decoration: none;
+    margin: auto;
+}
+.link3:hover {
+    color: #89939E;
+    transition: 0.3s;
+}
+.arrow{
+    position: relative;
+    top: 2.5px;
+}
+.links{
+    margin: auto;
+    text-align: right;
+    justify-content: end;
+}
+.cols{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.grid-box1 {
+    margin-top: 50px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.box {
+    display: flex;
+}
+.divBox {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.divBox:hover{
+    -webkit-box-shadow: 0px 0px 27px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 27px 1px rgba(0,0,0,0.75);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.divBox > h3 {
+    margin-top: 0px;
+}
+.somediv{
+    width: 100%;
+    flex: 2;
+    text-align: left;
+}
+.somediv > h4 {
+    margin: 0px;
+}
+.somediv1{
+    width: 100%;
+    flex: 1;
+}
+.somediv1 > h4 {
+    margin: 0px;
+}
+.div4 {
+    display: flex;
+}
+.div4 button {
+    flex: 1;
+}
+.div4 a {
+    text-decoration: none;
+    flex: 1;
+}
+.divAd{
+    text-align: center;
+}
+.flex-1{
+    display: flex;
+    justify-content: center;
+}
+.price{
+    margin-left: 20px;
+}
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+.textCenter {
+    text-align: center;
+    padding: 50px 0px;
+}
+.flexCenter{
+    justify-content: center;
+}
+.arrow{
+    margin: auto;
+}
+.btnArrow {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btnArrow:hover {
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+#name {
+    letter-spacing: 0.1rem;
+    color: #313131;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+.footer {
+    background-color: #313131;
+    color: #89939E;
+}
+.links a {
+    text-decoration: none;
+    color: #313131;
+}
+.links a:hover {
+    color: #131313;
+    transition: 0.3s;
+}
+input {
+    height: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 2px solid rgb(69, 69, 69);
+    outline: none;
+    height: 30px;
+}
+.input1 {
+    height: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 2px solid rgb(69, 69, 69);
+    outline: none;
+    height: 30px;
+    width: 500px;
+}
+
+.buttonstyle {
+    background-color: #313131;
+    border: 2px solid  #313131;
+    padding: 9px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    margin-left: 50px;
+
+}
+.buttonstyle:hover {
+    background-color: rgb(89, 89, 89);
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+}
+.buttonstyle1 {
+    background-color: #313131;
+    border: 2px solid  #313131;
+    padding: 9px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+.buttonstyle1:hover {
+    background-color: rgb(89, 89, 89);
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+}
+.buttonstyle2 {
+    background-color: #ffffff;
+    border: 2px solid  #ffffff;
+    padding: 9px 30px;
+    border-radius: 5px;
+    color:  #313131;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.buttonstyle2:hover {
+    background-color: rgb(89, 89, 89);
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+}
+select {
+    padding: 9px;
+    background-color: #313131;
+    color: white;
+    border-radius: 5px;
+}
+.inputstyle{
+    margin-left: 50px;
+}
+.divBox > h3 {
+    font-size: 20px;
+    color: #131313;
+    font-weight: 600;
+}
+.divBox > h4 {
+    font-size: 18px;
+    color: #313131;
+    font-weight: 500;
+}
+.somediv > h4 {
+    font-size: 16px;
+    color: #313131;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.somediv a {
+    text-decoration: none;
+    color: #313131;
+    font-weight: 600;
+}
+.somediv p{
+    font-size: 14px;
+    color: #313131;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.somediv h5 {
+    font-size: 12px;
+    color: #313131;
+    font-weight: 600;
+}
+.somediv1 h4 {
+    font-size: 16px;
+    color: #313131;
+    font-weight: 600;
+}
+.somediv a:hover {
+    color: #89939E;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.somediv img {
+    border-radius: 10px;
+}
+label {
+    font-size: 16px;
+    color: #313131;
+    font-weight: lighter;
+    text-align: left;
+}
+.sectionMargin {
+    margin: 50px 0px;
+}
+.sectionPadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sectionPadding1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sectionPadding2 {
+    padding-bottom: 50px;
+}
+.labelMargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+h2 {
+    letter-spacing: 0.1rem;
+    color: #313131;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+div.divAd img {
+    border-radius: 10px;
+}
+div.divAd p{
+    font-size: 16px;
+    color: #313131;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+div.divAd h5{
+    font-size: 16px;
+    color: #313131;
+    font-weight: 600;
+    margin: 0px;
+}
+div.divAd h3 {
+    color: #313131;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.commentsDiv{
+    background-color: #313131;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.commentsDiv h4 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+div.divAd {
+    padding-bottom: 50px;
+}
+.flex p{
+    font-size: 16px;
+    color: #313131;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

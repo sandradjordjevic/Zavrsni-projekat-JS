@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero section flex">
+        <div class="heading">
+            <a href="/index.html"><img src="./images/ads-low-resolution-logo-color-on-transparent-background.png" height="80px" width="120px" alt=""></a>
+        </div>
+        <div class="nav">
+            <a href="login.html">Log in</a>
+            <a href="register.html">Sing up</a>
+        </div>
+    </div>
+    <div class="section textCenter">
+        <h2 id="name"></h2>
+        <div class="flex flexCenter">
+            <div class="arrow"><button onclick="change(-1)" class="btnArrow"><img src="./images/left-arrow.png" alt=""></button>
+            </div>
+            <div class="imgCategory"><a id="categoryLink"><img id="image" height="450 px" width="430 px" alt=""></a>
+            </div>
+            <div class="arrow"><button onclick="change(1)" class="btnArrow"><img src="./images/arrow-right.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer textCenter">
+        <p>Copyright © 2023</p>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

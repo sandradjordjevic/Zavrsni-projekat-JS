@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sandra",
+      "lastName": "Djordjevic",
+      "userName": "sandradj@gmail.com",
+      "password": "sandra123",
+      "adress": "Mirka Gorcica 55",
+      "phoneNumber": "0641815867",
+      "gender": "F",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "firstName": "Petar",
+      "lastName": "Petrovic",
+      "userName": "ppetroviccc@gmail.com",
+      "password": "PeTaR",
+      "adress": "Milojka Lesjanina 65",
+      "phoneNumber": "0612345678",
+      "gender": "M",
+      "admin": false
+    },
+    {
+      "id": 3,
+      "firstName": "Mina",
+      "lastName": "Minic",
+      "userName": "minam@gmail.com",
+      "password": "minaaam",
+      "adress": "Voje Micica 51",
+      "phoneNumber": "0653456789",
+      "gender": "F",
+      "admin": false
+    },
+    {
+      "id": 4,
+      "firstName": "Andrija",
+      "lastName": "Djordjevic",
+      "userName": "andrijadjordj@gmail.com",
+      "password": "adj123",
+      "adress": "Bulevar Oslobodjenja",
+      "phoneNumber": "0653436889",
+      "gender": "M",
+      "admin": false
+    }
+  ],
+  "categories": [
+    {
+      "name": "Real Estate",
+      "image": "/images/newskyscraper.png",
+      "id": 1
+    },
+    {
+      "name": "Computers",
+      "image": "/images/ux.png",
+      "id": 2
+    },
+    {
+      "name": "Books",
+      "image": "/images/books.png",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Antiques and works of art",
+      "image": "/images/canvas.png"
+    },
+    {
+      "name": "Furniture",
+      "image": "/images/furniture.png",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Cars",
+      "image": "/images/sport-car.png"
+    },
+    {
+      "id": 7,
+      "name": "Smartphones",
+      "image": "/images/smartphone.png"
+    },
+    {
+      "name": "Holidays",
+      "image": "/images/summer-holidays.png",
+      "id": 8
+    }
+  ],
+  "ads": [
+    {
+      "title": "City Palace 41 Kragujevac",
+      "description": "Kragujevac - Gradska lokacija - Centar - Stojana Protića 41",
+      "price": "150000",
+      "image": "https://img.halooglasi.com/slike/projekti/a15ffadd-be41-4f21-bf9a-0b20812d4e3d.jpg",
+      "likes": 5,
+      "categoryId": "1",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "title": "Stolovi i ogledala za sminkanje",
+      "description": "Ogledala i stolovi se izradjuju od veoma visokog kvaliteta",
+      "price": "40",
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/220128/l/stolovi-i-ogledala-za-sminkanje-5425641498256-71798762348.jpg",
+      "likes": 0,
+      "categoryId": "5",
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "title": "Zotac Nvidia RTX 3070 8GB, ganc nova, nekorišćena",
+      "description": "Odlična za 4K (3840x2160) i 2K (2560x1440) (2560x1080) gaming na VISOKIM detaljima grafike.",
+      "price": 469,
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/221225/l/zotac-nvidia-rtx-3070-8gb-ganc-nova-nekorisce-5425642433270-71802680535.jpg",
+      "likes": 3,
+      "categoryId": "2",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Na srpskom frontu 1912. Adolf Fišer",
+      "description": "Na srpskom frontu 1912. Adolf Fišer u sjajnom stanju.",
+      "price": 9,
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/210930/l/na-srpskom-frontu-1912-adolf-fiser-5425637081224-71797429254.jpg",
+      "likes": 11,
+      "categoryId": 3,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "title": "Radomir Bata Djukić",
+      "description": "Pejzaž iz Mačve, radjen otprilike sedamdesetih godina.",
+      "price": 70,
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/210930/l/na-srpskom-frontu-1912-adolf-fiser-5425637081224-71797429254.jpg",
+      "likes": 11,
+      "categoryId": 4,
+      "userId": 4
+    },
+    {
+      "id": 6,
+      "title": "ČELIČNE FELNE 14 15 16 coli VELIKI IZBOR",
+      "description": "Direktni smo uvoznici čeličnih felni u Srbiji, tako da su naše cene i najpovoljnije.",
+      "price": 100,
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/230110/l/celicne-felne-14-15-16-coli-veliki-izbor-5425642713184-71802820819.jpg",
+      "likes": 5,
+      "categoryId": 6,
+      "userId": 4
+    },
+    {
+      "id": 7,
+      "title": "iPhone 11 pro max 256 gb Green",
+      "description": "Telefon je odličan,sim free.Perfektan u radu, bez greske.Ima jednu ogrebotinu na ekranu.",
+      "price": 470,
+      "image": "https://img.halooglasi.com/slike/oglasi/Thumbs/221225/l/iphone-11-pro-max-256-gb-green-5425642662087-71802675963.jpg",
+      "likes": 99,
+      "categoryId": 7,
+      "userId": 2
+    },
+    {
+      "title": "Kuca za odmor u prirodi",
+      "description": "Lokacija: Bijela (Crna Gora, Herceg Novi).",
+      "price": 7,
+      "image": "https://media.oglasi.rs/595dbfca-6757-47de-8ca1-4bdaa74b5f29/original-DJI_0798.jpg",
+      "likes": 0,
+      "categoryId": "8",
+      "userId": 3,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "Na kom spratu se nalazi stan?",
+      "adId": 1
+    },
+    {
+      "id": 2,
+      "text": "Da li izradjujete po merama?",
+      "adId": 2
+    },
+    {
+      "id": 3,
+      "text": "Od kog materijala se izradjuju stolovi?",
+      "adId": 2
+    },
+    {
+      "text": "Da li je grejanje centralno?",
+      "adId": "1",
+      "id": 4
+    }
+  ]
+}
